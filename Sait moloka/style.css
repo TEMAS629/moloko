@@ -24,30 +24,139 @@ a {
   justify-content: center;
   align-items: center;
 }
-.logo{
+.logo {
   width: 163px;
   height: 75px;
   margin-left: 3%;
 }
-nav{
+nav {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
-.menu{
+.menu {
   color: black;
-  font-family: 'Segoe UI', Semilight;
-  font-size: 18px;
-}
-#main{
-  max-width: 100%;
-  height: 1100px;
-  background-image: url(img/Fon.png);
-}
-.offer{
+  font-family: "Segoe UI", Semilight;
   font-size: 24px;
-  font-family: 'Segoe UI';
+  transition: 0.5s ease-in;
+}
+.menu:hover {
+  color: rgb(204, 172, 120);
+}
+#main {
+  max-width: 100%;
+  height: 800px;
+  background-image: url(img/Fon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.offer {
+  width: 70%;
+}
+.first {
+  padding-top: 15%;
+  font-size: 46px;
+  font-family: "Segoe UI";
   font-weight: bold;
-  color: ;
+  font-style: italic;
+  color: white;
+}
+.second {
+  font-size: 32px;
+  font-family: "Segoe UI";
+  font-style: italic;
+  color: white;
+  width: 70%;
 }
 
+#product {
+  max-width: 100%;
+  height: 850px;
+  background-color: #ede6c9;
+}
+.text-title {
+  padding: 3%;
+  font-family: "Segoe UI";
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.nachinka {
+  padding-top: 2%;
+  display: grid;
+  row-gap: 2em;
+}
+.moloko,
+.tvorog,
+.smetana,
+.cheese {
+  display: flex;
+  justify-content: center;
+}
+.left-side {
+  width: 10%;
+}
+.right-side {
+  width: 60%;
+  font-size: 18px;
+  font-family: "Segoe UI";
+  color: black;
+}
+#postavshik{
+  max-width: 100%;
+  height: 800px;
+  background-color: #e5e0ce;
+}
+.vstuplenie{
+  padding: 3%;
+  display: flex;
+  height: 50%;
+  justify-content: center;
+}
+#postavshik .left-side{
+  width: 30%;
+}
+#postavshik .right-side{
+  width: 60%;
+  font-size: 18px;
+  font-family: "Segoe UI";
+  color: black;
+}
+.text-post{
+  width: 40%;
+  font-size: 24px;
+  font-family: 'Segoe UI';
+  font-weight: 500;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.postavki{
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+  padding-top: 3%;
+}
+#postavshik .postavki .left-side{
+  width: 25%;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  color: black;
+}
+#postavshik .postavki .right-side{
+  width: 40%;
+  display: grid;
+  row-gap: 1em;
+}
+#postavshik .postavki .right-side .cartinki{
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+.text-up{
+  
+}
